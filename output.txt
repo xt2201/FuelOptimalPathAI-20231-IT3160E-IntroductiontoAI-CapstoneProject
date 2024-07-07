@@ -1,0 +1,31 @@
+Output for 5 levels and fuel capacity is 150
+Astar_1step: 
+Path: ['Start', 'firstLevel5', 'secondLevel2', 'thirdLevel6', 'fourthLevel10', 'Station11', 'fifthLevel4', 'Finish'] 
+Distance travelled: 227.75971147759788 
+#Node Expanded: 8 
+
+
+Astar_2step: 
+Path: ['Start', 'firstLevel5', 'secondLevel5', 'thirdLevel6', 'fourthLevel9', 'fifthLevel9', 'Station8', 'Finish'] 
+Distance travelled: 216.98062270304462 
+#Node Expanded: 10 
+
+
+GreedyBFS(2): 
+Path: ['Start', 'firstLevel1', 'secondLevel2', 'thirdLevel6', 'fourthLevel3', 'Station11', 'fifthLevel1', 'Finish'] 
+Distance travelled: 288.27940545000934 
+#Node Expanded: 11 
+
+
+GreedyBFS(1): 
+Path: ['Start', 'firstLevel7', 'secondLevel6', 'thirdLevel1', 'fourthLevel6', 'fifthLevel1', 'Station1', 'Finish'] 
+Distance travelled: 238.4187022534095 
+#Node Expanded: 8 
+
+
+Bidirectional_Astar: 
+Path: ['Start', 'firstLevel5', 'secondLevel2', 'thirdLevel6', 'fourthLevel10', 'Station11', 'fifthLevel4', 'Finish'] 
+Distance travelled: 246.5220361353438 
+#Node Expanded: 102 
+
+
